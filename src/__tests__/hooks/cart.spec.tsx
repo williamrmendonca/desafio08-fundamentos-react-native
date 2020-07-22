@@ -171,7 +171,7 @@ describe('Cart Context', () => {
         <TestComponent />
       </CartProvider>,
     );
-
+    // alteracao teste
     await act(async () => {
       fireEvent.press(getByTestId('add-to-cart'));
       fireEvent.press(getByTestId('increment'));
